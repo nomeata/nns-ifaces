@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Using the [DFINITY Canister SDK](https://sdk.dfinity.org) `dfx` to call a canister that exists outside of a `dfx` project, such as any of the NNS canisters, can lead to garbled [Candid](https://github.com/dfinity/candid) output. This is because `dfx` does not support this use case, consequently does not ship with these canister interfaces, and therefore does not know how to display results correctly by default. Fortunately there is a simple workaround. The Candid compiler `didc` allows you to suggest how results should be displayed. This repository contains `.did` files that facilitate the workaround. See the example below.
+Using the [DFINITY Canister SDK](https://sdk.dfinity.org) `dfx` to call a canister that exists outside of a `dfx` project, such as any of the NNS canisters, can lead to garbled [Candid](https://github.com/dfinity/candid) output. This is because `dfx` does not support this use case, consequently does not ship with these canister interfaces, and therefore does not know how to display results correctly by default. Fortunately, there is a simple workaround. The Candid compiler `didc` allows you to suggest how results should be displayed. This repository contains `.did` files that facilitate the workaround. See the example below.
 
 ## Example
 
