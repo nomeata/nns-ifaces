@@ -22,7 +22,7 @@ type LedgerCanisterInitPayload = record {
   transaction_window: opt Duration;
   archive_options: opt ArchiveOptions;
   send_whitelist: vec record {principal};
-}
+};
 type Memo = nat64;
 type NotifyCanisterArgs = record {
   block_height: BlockHeight;
