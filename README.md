@@ -1,4 +1,4 @@
-# Network Nervious System Canister Interfaces
+# Network Nervous System Canister Interfaces
 
 ## Introduction
 
